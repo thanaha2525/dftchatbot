@@ -6,13 +6,13 @@ var db = mysql.createConnection({
   password : 'f70832a88aa0dd5',
   database : 'heroku_44e8d37e9d01440'
 
-  // host     : 'localhost',
-  // user     : 'root',
-  // password : '123456',
-  // database : 'dftbot'
-  
+  // HOST     : 'LOCALHOST',
+  // USER     : 'ROOT',
+  // PASSWORD : '123456',
+  // DATABASE : 'DFTBOT'
+
 });
- 
+
 db.connect((err) => {
   if(!err)
       console.log('Database is connected!');
