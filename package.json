@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index",
-    "restart": "kill -9 $(ps aux | grep '\snode\s' | awk '{print $2}') && node ./src/app.js "
+    "server": "nodemon index.js"
   },
   "keywords": [],
   "author": "",
